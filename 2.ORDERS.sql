@@ -20,5 +20,4 @@
     product_name VARCHAR(255) NOT NULL,
     amount INT NOT NULL CHECK (amount > 0),
     FOREIGN KEY (customer_id) REFERENCES CUSTOMERS (id)
-    )
-);
+ );
