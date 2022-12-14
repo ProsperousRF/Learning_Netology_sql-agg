@@ -14,7 +14,7 @@ CREATE DATABASE netology_test; -- ну и создаем ее
 
 USE netology_test;
 
-CREATE TABLE IF NOT EXISTS customers (
+CREATE TABLE IF NOT EXISTS CUSTOMERS (
     id INT PRIMARY KEY AUTO_INCREMENT,
     name VARCHAR(255) NOT NULL,
     surname VARCHAR(255) NOT NULL,
